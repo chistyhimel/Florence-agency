@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+.navbar {
+    padding: 15px 10px;
+
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+}
+.btn-brand {
+    background-image: linear-gradient(to right , #1edcb5,#0db9de);
+    color:white;
+    border-radius: 20px 0px 20px 0px;
+    padding: 10px 20px;
+}
+.btn-input{
+    background-image: linear-gradient(to right , #1edcb5,#0db9de);
+    color:white;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    font-weight: 900;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-weight: 900;
+}
+.box {
+    box-shadow: 5px 5px 10px rgb(190, 186, 186);
+    padding: 25px;
+    transition: all .5s ease;
+}
+.box button{
+    display: none;
+}
+.box:hover button {
+    display:inline-block;
+}
+.box:hover {
+border: 1px solid #1edcb5;
+box-shadow: none;
+}
+.box p:first-child{
+    font-weight: 700;
+    font-size: 70px;
+}
+input {
+    min-width: 500px ;
+    border: none;
+}
+input:focus {
+    border: none;
+    outline: none;
+}
+ul{
+    list-style-type: none;
+}
+#pricing{
+    background: url(./images/bgDark.png);
+    background-position: left top ;
+    background-size: cover;
+}
+.Achivement{
+    background: linear-gradient(to right , #1edcb5,#0db9de);
+    border-radius: 0px 40px 0px 40px;
+}
+.Achivement2{
+    background: linear-gradient(to right , #1edcb5,#0db9de);
+    border-radius: 0px 40px 0px 40px;
+}
+.Achivement3{
+    background: linear-gradient(to right , #1edcb5,#0db9de);
+    border-radius: 40px 0px 40px 0px;
+}
+.Achivement1{
+    background: linear-gradient(to right , #1edcb5,#0db9de);
+    border-radius: 40px 0px 40px 0px;
+}
