@@ -3,10 +3,19 @@
 body {
   font-size: 18px;
 }
-.container {
+.banner-container {
+    background-image: url("/images/bg-img.jpg");
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+.hader-section{
+    padding-top: 120px !important;
 }
 .navbar {
   padding: 15px 10px;
+  position: absolute;
+  z-index: 100;
 }
 .navbar-light .navbar-nav .nav-link {
   color: #000;
@@ -130,6 +139,7 @@ ul {
 @media (max-width: 769px) {
   .hader-section {
     min-height: 900px;
+    padding-top: 100px;
   }
   .Achivement-section {
     height: 950px;
