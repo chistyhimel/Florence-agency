@@ -1,81 +1,165 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
-
-.navbar {
-    padding: 15px 10px;
-
+body {
+  font-size: 18px;
 }
-.navbar-light .navbar-nav .nav-link{
-    color: #000;
+.container {
+}
+.navbar {
+  padding: 15px 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
 }
 .btn-brand {
-    background-image: linear-gradient(to right , #1edcb5,#0db9de);
-    color:white;
-    border-radius: 20px 0px 20px 0px;
-    padding: 10px 20px;
+  background-image: linear-gradient(to right, #1edcb5, #0db9de);
+  color: white;
+  border-radius: 20px 0px 20px 0px;
+  padding: 10px 20px;
 }
-.btn-input{
-    background-image: linear-gradient(to right , #1edcb5,#0db9de);
-    color:white;
+.btn-input {
+  background-image: linear-gradient(to right, #1edcb5, #0db9de);
+  color: white;
 }
-h1{
-    font-family: 'Playfair Display', serif;
-    font-size: 80px;
-    font-weight: 900;
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 80px;
+  font-weight: 900;
 }
-h2{
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    font-weight: 900;
+h2 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-weight: 900;
 }
+
+.to-do-item:hover {
+  box-shadow: -1px 1px 80px rgba(31, 224, 186, 0.3);
+  border-radius: 50px 0px 50px 0px;
+}
+
 .box {
-    box-shadow: 5px 5px 10px rgb(190, 186, 186);
-    padding: 25px;
-    transition: all .5s ease;
+  box-shadow: -5px 5px 30px rgb(221, 212, 212);
+  padding: 25px;
+  height: 590px;
+  border-radius: 4px;
+  transition: all 0.5s ease;
 }
-.box button{
-    display: none;
+.boder-box {
+  border-bottom: 2px solid #0db9de;
+  margin-bottom: 5px;
+}
+.box button {
+  display: none;
 }
 .box:hover button {
-    display:inline-block;
+  display: inline-block;
 }
 .box:hover {
-border: 1px solid #1edcb5;
-box-shadow: none;
+  border: 3px solid #1edcb5;
+  box-shadow: none;
 }
-.box p:first-child{
-    font-weight: 700;
-    font-size: 70px;
+.box p:first-child {
+  font-weight: 500;
+  font-size: 50px;
 }
 input {
-    min-width: 500px ;
-    border: none;
+  min-width: 500px;
+  border: none;
 }
 input:focus {
+  border: none;
+  outline: none;
+}
+ul {
+  list-style-type: none;
+}
+#pricing {
+  background: url(./images/bgDark.png);
+  background-position: left top;
+  background-size: cover;
+}
+.Achivement {
+  background: #fff;
+  box-shadow: -1px 1px 50px rgba(31, 224, 186, 0.5);
+  border-radius: 0px 40px 0px 40px;
+}
+.Achivement:hover {
+  background: linear-gradient(to right, #1edcb5, #0db9de);
+  box-shadow: none;
+}
+.Achivement2 {
+  background: #fff;
+  box-shadow: -1px 1px 50px rgba(31, 224, 186, 0.5);
+  border-radius: 40px 0px 40px 0px;
+}
+.Achivement2:hover {
+  background: linear-gradient(to right, #1edcb5, #0db9de);
+  box-shadow: none;
+}
+.Achivement3 {
+  background: #fff;
+  box-shadow: -1px 1px 50px rgba(31, 224, 186, 0.5);
+  border-radius: 40px 0px 40px 0px;
+}
+.Achivement3:hover {
+  background: linear-gradient(to right, #1edcb5, #0db9de);
+  box-shadow: none;
+}
+.Achivement4 {
+  background: #fff;
+  box-shadow: -1px 1px 50px rgba(31, 224, 186, 0.5);
+  border-radius: 0px 40px 0px 40px;
+}
+.Achivement4:hover {
+  background: linear-gradient(to right, #1edcb5, #0db9de);
+  box-shadow: none;
+}
+
+.footer-icon {
+  font-size: 20px;
+  text-align: center;
+}
+.footer-icon i {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #7f8b8e;
+}
+
+@media (max-width: 769px) {
+  .hader-section {
+    min-height: 900px;
+  }
+  .Achivement-section {
+    height: 950px;
+  }
+
+  input {
+    min-width: 200px;
     border: none;
-    outline: none;
+  }
+
+  .footer-items li {
+    text-align: center;
+    font-size: 24px;
+  }
 }
-ul{
-    list-style-type: none;
+
+@media (max-width: 575px) {
+  .hader-section {
+    min-height: 900px;
+  }
+  .Achivement-section {
+    height: 950px;
+  }
+  input {
+    min-width: 200px;
+    border: none;
+  }
 }
-#pricing{
-    background: url(./images/bgDark.png);
-    background-position: left top ;
-    background-size: cover;
-}
-.Achivement{
-    background: linear-gradient(to right , #1edcb5,#0db9de);
-    border-radius: 0px 40px 0px 40px;
-}
-.Achivement2{
-    background: linear-gradient(to right , #1edcb5,#0db9de);
-    border-radius: 0px 40px 0px 40px;
-}
-.Achivement3{
-    background: linear-gradient(to right , #1edcb5,#0db9de);
-    border-radius: 40px 0px 40px 0px;
-}
-.Achivement1{
-    background: linear-gradient(to right , #1edcb5,#0db9de);
-    border-radius: 40px 0px 40px 0px;
+@media (max-width: 290px) {
+  .Achivement-section {
+    height: 1150px;
+  }
 }
